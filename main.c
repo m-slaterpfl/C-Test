@@ -9,8 +9,17 @@ int Adder(int A, int B)
 
 int main()
 {
-    int Result = Adder(5, 6);
+    int A = 0;
+    int B = 0;
 
-    printf("Result = %d\n", Result);
+    printf("Input Value A:");
+    scanf("%d", &A);
+
+    printf("Input Value B:");
+    scanf("%d", &B);
+
+    int Result = Adder(A, B);
+
+    printf("%d + %d = %d\n", A, B, Result);
     return 0;
 }
