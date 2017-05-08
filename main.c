@@ -20,6 +20,6 @@ int main()
 
     int Result = Adder(A, B);
 
-    printf("Result = %d\n", Result);
+    printf("%d + %d = %d\n", A, B, Result);
     return 0;
 }
