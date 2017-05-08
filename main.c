@@ -9,7 +9,13 @@ int Adder(int A, int B)
 
 int main()
 {
-    int Result = Adder(5, 6);
+    int A = 0;
+    int B = 0;
+
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    int Result = Adder(A, B);
 
     printf("Result = %d\n", Result);
     return 0;
