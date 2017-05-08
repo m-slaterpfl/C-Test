@@ -12,10 +12,10 @@ int main()
     int A = 0;
     int B = 0;
 
-    printf("Input Value A:");
+    printf("Input Value A:  ");
     scanf("%d", &A);
 
-    printf("Input Value B:");
+    printf("Input Value B:  ");
     scanf("%d", &B);
 
     int Result = Adder(A, B);
